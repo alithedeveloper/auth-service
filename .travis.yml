@@ -1,0 +1,30 @@
+---
+dist: xenial
+
+git:
+  quiet: true
+
+language: php
+php:
+  - '7.1'
+  - '7.2'
+  - '7.3'
+
+services:
+  - mysql
+
+before_install:
+  - make database
+
+before_script:
+  - composer self-update
+
+script:
+  - make phpcs
+  - make environment
+  - make install
+  - make test
+
+after_failure:
+  - make logs
+

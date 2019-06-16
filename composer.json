@@ -1,0 +1,25 @@
+{
+    "name": "diplodocker/auth-service",
+    "description": "Laravel JWT auth service package",
+    "type": "library",
+    "license": "MIT",
+    "keywords": ["laravel","authorization","auth","laravel-package", "jwt"],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^7.1.3",
+        "tymon/jwt-auth": "dev-develop"
+    },
+    "autoload": {
+        "psr-4": {
+            "Diplodocker\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Diplodocker\\Providers\\AuthServiceProvider",
+                "Diplodocker\\Providers\\BindingServiceProvider"
+            ]
+        }
+    }
+}
