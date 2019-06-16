@@ -1,6 +1,9 @@
 ### About
 
 [![Build Status](https://travis-ci.org/diplodocker/auth-service.svg?branch=master)](https://travis-ci.org/diplodocker/auth-service)
+[![GitHub issues](https://img.shields.io/github/issues/diplodocker/auth-service.svg)](https://github.com/diplodocker/auth-service/issues)
+[![Made for Laravel](https://img.shields.io/badge/made%20for-laravel-orange.svg?style=flat&logo=Laravel)](https://laravel.com/)
+
 
 Laravel JWT auth service package this is just a wrapper over a `tymon/jwt-auth` package that includes services, controllers and a factory.
 
