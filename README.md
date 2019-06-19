@@ -5,7 +5,16 @@
 [![Made for Laravel](https://img.shields.io/badge/made%20for-laravel-orange.svg?style=flat&logo=Laravel)](https://laravel.com/)
 
 
-Laravel JWT auth service package this is just a wrapper over a `tymon/jwt-auth` package that includes services, controllers and a factory.
+Laravel JWT auth service package – this is just a wrapper over a `tymon/jwt-auth` package that includes services, controllers and a factory.
+
+Contains:
+
+* Controllers
+* Routes
+* Services
+* Requests
+* Factory
+
 
 ### Install
 
